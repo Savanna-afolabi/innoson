@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 16px 130px;
+  padding: 16px 100px;
 }
 .demo-banner {
   text-align: center;
@@ -47,9 +47,10 @@ nav {
 }
 ul{
   display: flex;
-  gap: 30px;
+  gap: 23px;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 20px;
+  align-items: center;
 }
 ul li{
   color: var(--black-text);
@@ -63,4 +64,24 @@ nav button{
   font-size: 20px;
   align-items: center;
   border: none;
+}
+#menu-icon{
+  display: none;
+}
+@media (max-width:500px){
+  .container{
+    padding: 10px;
+  }
+  .brand-wrapper img {
+    max-width: 30%;
+  }
+  .brand-wrapper h4 {
+    font-size: 15px;
+  }
+  ul{
+    display: none;
+  }
+  #menu-icon{
+    display: block;
+  }
 }

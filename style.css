@@ -95,6 +95,38 @@ nav button{
   justify-content: center;
   height: 100%;
 }
+
+.section-2{
+  background-color: var(--blue);
+  padding: 30px 0;
+  
+}
+.section-2 h3{
+  text-align: center;
+  color: var(--hero-white);
+  font-weight: 600;
+  font-size: 42px;
+  max-width: 54%;
+  margin: 0 auto;
+}
+@media (min-width:500px) and (max-width:980px){
+
+  .container{
+    padding: 16px 30px;
+
+  }
+  .brand-wrapper h4{
+    display: none;
+ 
+  }
+  .section-1{
+    height: 50vh;
+
+  }
+  .section-1 h2{
+    font-size: 50px;
+  }
+}
 @media (max-width:500px){
   .container{
     padding: 10px;
@@ -104,6 +136,7 @@ nav button{
   }
   .brand-wrapper h4 {
     font-size: 15px;
+
   }
   ul{
     display: none;

@@ -73,7 +73,7 @@ nav button{
 
 .section-1{
   background-image: url(asset/Image20260429202334.jpg);
-  height: 100vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,6 +109,18 @@ nav button{
   max-width: 54%;
   margin: 0 auto;
 }
+.section-3{
+  background-color: var(--white);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.section-3 h4{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--black-text);
+}
+
 @media (min-width:500px) and (max-width:980px){
 
   .container{
@@ -125,6 +137,11 @@ nav button{
   }
   .section-1 h2{
     font-size: 50px;
+  }
+  .section-2 h3{
+    font-size: 30px;
+    max-width: 70%;
+    
   }
 }
 @media (max-width:500px){
@@ -161,5 +178,10 @@ nav button{
   font-size: 18px;
   width: 100%;
   
+}
+/* .section-2  */
+.section-2 h3{
+  font-size: 20px;
+  max-width: 70%;
 }
 }

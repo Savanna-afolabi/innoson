@@ -78,6 +78,7 @@ nav button{
   background-size: cover;
   background-position: center;
   color: var(--hero-white);
+
 }
 .section-1 h2{
   font-size: 60px;
@@ -120,7 +121,27 @@ nav button{
   font-size: 20px;
   color: var(--black-text);
 }
-
+.section-3a-div{
+  background-color: var(--hero-white);
+  padding: 45px 47px;
+  display: flex;
+  align-items: center;
+}
+.section-3a-div img{
+  max-width: 50%;
+  padding: 10px 25px; 
+}
+.section-3a-div h3{
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 35px;
+}
+.section-3a-div p{
+  font-weight: 400;
+  font-size: 16px;
+  padding: 26px 0;
+  line-height: 1.6; 
+}
 @media (min-width:500px) and (max-width:980px){
 
   .container{
@@ -132,7 +153,7 @@ nav button{
  
   }
   .section-1{
-    height: 50vh;
+    height: 60vh;
 
   }
   .section-1 h2{
@@ -165,7 +186,7 @@ nav button{
     border-radius: 5px;
   }
   .section-1{
-  height: 68vh;
+  height: 80vh;
   color: var(--hero-white);
 }
 .section-1 h2{

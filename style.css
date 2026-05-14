@@ -13,7 +13,7 @@
   --black-text: #0f0f0f;
   --minty-green: #38d69e;
   --white: #f7f7f7;
-  --hero-white: #FFFFFF;
+  --hero-white: #ffffff;
 }
 body {
   font-family: var(--font-family);
@@ -36,27 +36,27 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.brand-wrapper{
+.brand-wrapper {
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.brand-wrapper h4{
+.brand-wrapper h4 {
   color: var(--blue);
   font-weight: 700;
   font-size: 20px;
 }
-ul{
+ul {
   display: flex;
   gap: 23px;
   font-weight: 600;
   font-size: 20px;
   align-items: center;
 }
-ul li{
+ul li {
   color: var(--black-text);
 }
-nav button{
+nav button {
   background-color: var(--minty-green);
   color: var(--white);
   padding: 9px 25px;
@@ -66,43 +66,40 @@ nav button{
   align-items: center;
   border: none;
 }
-#hamburger-img{
+#hamburger-img {
   display: none;
 }
 
-
-.section-1{
+.section-1 {
   background-image: url(asset/Image20260429202334.jpg);
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: var(--hero-white);
-
 }
-.section-1 h2{
+.section-1 h2 {
   font-size: 60px;
   font-weight: 700;
   width: 571px;
 }
-.section-1 p{
+.section-1 p {
   font-weight: 500;
   font-size: 20px;
   width: 633px;
 }
-.section-1-div{
+.section-1-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
 
-.section-2{
+.section-2 {
   background-color: var(--blue);
   padding: 30px 0;
-  
 }
-.section-2 h3{
+.section-2 h3 {
   text-align: center;
   color: var(--hero-white);
   font-weight: 600;
@@ -110,63 +107,85 @@ nav button{
   max-width: 54%;
   margin: 0 auto;
 }
-.section-3{
+.section-3 {
   background-color: var(--white);
   padding-bottom: 50px;
   padding-top: 50px;
 }
-.section-3 h4{
+.section-3 h4 {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
   color: var(--black-text);
 }
-.section-3a-div{
+.section-3a-div {
   background-color: var(--hero-white);
   padding: 45px 47px;
   display: flex;
   align-items: center;
 }
-.section-3a-div img{
+.section-3a-div img {
   max-width: 50%;
-  padding: 10px 25px; 
+  padding: 10px 25px;
 }
-.section-3a-div h3{
+.section-3a-div h3 {
   color: var(--blue);
   font-weight: 600;
   font-size: 35px;
 }
-.section-3a-div p{
+.section-3a-div p {
   font-weight: 400;
   font-size: 16px;
   padding: 26px 0;
-  line-height: 1.6; 
+  line-height: 1.6;
 }
-@media (min-width:500px) and (max-width:980px){
-
-  .container{
+.learn-more-btn {
+  background-color: var(--minty-green);
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  font-family: var(--font-family);
+}
+@media (min-width: 500px) and (max-width: 980px) {
+  .container {
     padding: 16px 30px;
-
   }
-  .brand-wrapper h4{
+  .brand-wrapper h4 {
     display: none;
- 
   }
-  .section-1{
+  .section-1 {
     height: 60vh;
-
   }
-  .section-1 h2{
+  .section-1 h2 {
     font-size: 50px;
   }
-  .section-2 h3{
+  .section-2 h3 {
     font-size: 30px;
     max-width: 70%;
-    
+  }
+  .section-3a-div > img {
+    max-width: 100%;
+    padding: 10px 25px;
+  }
+  .section-3a-div {
+    flex-direction: column;
+  }
+  .section-3a-div div {
+    max-width: 100%;
+    padding: 0;
+  }
+  .section-3a-div h3 {
+    padding-top: 20px;
+  }
+  .learn-more-btn {
+    padding: 16px 22px;
   }
 }
-@media (max-width:500px){
-  .container{
+@media (max-width: 500px) {
+  .container {
     padding: 10px;
   }
   .brand-wrapper img {
@@ -174,35 +193,47 @@ nav button{
   }
   .brand-wrapper h4 {
     font-size: 15px;
-
   }
-  ul{
+  ul {
     display: none;
   }
-  #hamburger-img{
+  #hamburger-img {
     display: block;
     border: 2px #535655 solid;
     background-color: #535655;
     border-radius: 5px;
   }
-  .section-1{
-  height: 80vh;
-  color: var(--hero-white);
-}
-.section-1 h2{
-  font-size: 40px;
-  font-weight: 600;
-  width: 100%;
-}
-.section-1 p{
-  font-weight: 600;
-  font-size: 18px;
-  width: 100%;
-  
-}
-/* .section-2  */
-.section-2 h3{
-  font-size: 20px;
-  max-width: 70%;
-}
+  .section-1 {
+    height: 80vh;
+    color: var(--hero-white);
+  }
+  .section-1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+  }
+  .section-1 p {
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+  }
+  /* .section-2  */
+  .section-2 h3 {
+    font-size: 20px;
+    max-width: 70%;
+  }
+  /* section-3  */
+  .section-3a-div > img {
+    max-width: 100%;
+  }
+  .section-3a-div {
+    flex-direction: column;
+  }
+  .section-3a-div div {
+    max-width: 100%;
+    padding: 0;
+  }
+  .section-3a-div h3 {
+    padding-top: 20px;
+  }
 }

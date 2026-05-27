@@ -111,6 +111,7 @@ nav button {
   background-color: var(--white);
   padding-bottom: 50px;
   padding-top: 50px;
+  margin-top: 60px;
 }
 .section-3 h4 {
   text-align: center;
@@ -141,9 +142,9 @@ nav button {
   font-weight: 400;
   font-size: 16px;
   padding: 26px 0;
-  line-height: 1.6;
-  
+  line-height: 1.6; 
 }
+
 
 .learn-more-btn {
   background-color: var(--minty-green);
@@ -154,37 +155,15 @@ nav button {
   border: none;
   border-radius: 5px;
 }
-.section-3b-div img {
-  max-width: 50%;
+.section-4{
+  background-color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.section-3b-div div{
-  max-width: 50%;
-  padding: 10px 25px;
-}
-.section-3b-div h3 {
-  color: var(--blue);
-  font-weight: 600;
-  font-size: 35px;
-}
-.section-3b-div p {
-  font-weight: 400;
-  font-size: 16px;
-  padding: 26px 0;
-  line-height: 1.6;
-  border: solid 1px red;
-  width: 487px;
-}
-.section-3b-div{
+.section-text-first{
+  display: flex;
+  align-items: center;
   background-color: var(--hero-white);
-  padding: 45px 47px;
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-.section-3b-container{
-  display: flex;
-  align-items: center;
-  margin-left: 250px;
 }
 @media (min-width: 500px) and (max-width: 980px) {
   .container {
@@ -222,6 +201,8 @@ nav button {
   .learn-more-btn {
     padding: 16px 22px;
   }
+
+  
 }
 @media (max-width: 500px) {
   .container {
@@ -276,4 +257,5 @@ nav button {
   .section-3a-div h3 {
     padding-top: 20px;
   }
+
 }

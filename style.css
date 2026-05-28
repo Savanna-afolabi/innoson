@@ -109,9 +109,8 @@ nav button {
 }
 .section-3 {
   background-color: var(--white);
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   padding-top: 50px;
-  margin-top: 60px;
 }
 .section-3 h4 {
   text-align: center;
@@ -133,12 +132,12 @@ nav button {
   max-width: 50%;
   padding: 10px 25px;
 }
-.section-3a-div h3 {
+.section-3a-div h3 , .section-text-first h3 {
   color: var(--blue);
   font-weight: 600;
   font-size: 35px;
 }
-.section-3a-div p {
+.section-3a-div p , .section-text-first p{
   font-weight: 400;
   font-size: 16px;
   padding: 26px 0;
@@ -155,15 +154,26 @@ nav button {
   border: none;
   border-radius: 5px;
 }
+
+/* section-4  */
 .section-4{
   background-color: var(--white);
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 50px;
+}
+.section-text-first img{
+  max-width: 50%;
+}
+.section-text-first div{
+  max-width: 50%;
+  padding: 10px 30px 10px 0;
 }
 .section-text-first{
   display: flex;
   align-items: center;
   background-color: var(--hero-white);
+  padding: 45px 47px;
+  
 }
 @media (min-width: 500px) and (max-width: 980px) {
   .container {
@@ -202,7 +212,21 @@ nav button {
     padding: 16px 22px;
   }
 
-  
+  /* sectionn-4  */
+    
+  .section-text-first{
+  flex-direction: column-reverse; 
+}
+.section-text-first > img{
+  min-width: 100%; 
+}
+.section-text-first div{
+  max-width: 100%;
+  padding: 10px 30px 10px 0;
+}
+.section-text-first h3{
+  padding-top: 28px;
+} 
 }
 @media (max-width: 500px) {
   .container {
@@ -257,5 +281,19 @@ nav button {
   .section-3a-div h3 {
     padding-top: 20px;
   }
-
+  /* section-4  */
+   .section-text-first{
+  flex-direction: column-reverse; 
+  padding: 45px 20px;
+}
+.section-text-first > img{
+  min-width: 100%; 
+}
+.section-text-first div{
+  max-width: 100%;
+  padding: 10px 30px 10px 0;
+}
+.section-text-first h3{
+  padding-top: 28px;
+}
 }

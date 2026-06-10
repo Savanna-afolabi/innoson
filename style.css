@@ -10,6 +10,7 @@
 :root {
   --font-family: "Noto Sans", sans-serif;
   --blue: #365fa3;
+  --primary-blue: #2E3192;
   --black-text: #0f0f0f;
   --minty-green: #38d69e;
   --white: #f7f7f7;
@@ -194,17 +195,28 @@ nav button {
   padding: 45px 47px;
   
 }
-footer{
+.footer{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 477px;
+}
+footer{
   background-color: var(--black-text);
+  padding-bottom: 30px;
 }
 footer div{
   color: var(--hero-white);
 }
+.img-div{
+  display: flex;
+  gap: 9px;
+  padding-bottom: 17px;
+}
 .footer-div h1 p{
 padding-bottom: 30px;
-gap: 25px;
+padding-top: 10px;
+font-size: 16px;
 }
 h1{
   font-size: 20px;
@@ -214,6 +226,8 @@ h1{
 }
 h5{
 padding-bottom: 10px;
+padding-top: 10px;
+font-size: 17px;
 }
 
 #div-p{
@@ -230,12 +244,18 @@ input{
 #email{
   width: 142px;
   height: 50px;
-  background-color: var(--blue);
+  background-color: var(--primary-blue);
   color: var(--white);
   font-family: var(--font-family);
   font-size: 18px;
+  border-radius: 4px;
+  border: none;
 }
-
+#line-div{
+  border: 3px solid var(--hero-white);
+  width: 88%;
+  margin: 0 auto;
+}
 @media (min-width: 500px) and (max-width: 980px) {
   .container {
     padding: 16px 30px;

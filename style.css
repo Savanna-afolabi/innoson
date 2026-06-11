@@ -199,7 +199,7 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 477px;
+  
 }
 footer{
   background-color: var(--black-text);
@@ -256,6 +256,14 @@ input{
   width: 88%;
   margin: 0 auto;
 }
+#h2-16{
+  font-size: 16px;
+  color: var(--hero-white);
+  font-weight: 400;
+  display: flex;
+  justify-self: center;
+  padding-top: 24px;
+}
 @media (min-width: 500px) and (max-width: 980px) {
   .container {
     padding: 16px 30px;
@@ -308,6 +316,24 @@ input{
 .section-text-first h3{
   padding-top: 28px;
 } 
+
+/* footer 
+ */
+
+ input{
+  height: 30px;
+  margin-bottom: 15px;
+}
+.footer{
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+.footer-div p h1{
+  font-size: 13px;
+}
+.second-div h1{
+  text-align: center;
+}
 }
 @media (max-width: 500px) {
   .container {
@@ -386,5 +412,10 @@ input{
 }
 .section-text-first h3{
   padding-top: 28px;
+}
+/* footer  */
+.footer{
+  flex-direction: column;
+  gap: 50px;
 }
 }

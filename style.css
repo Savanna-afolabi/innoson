@@ -332,7 +332,7 @@ input{
   font-size: 13px;
 }
 .second-div h1{
-  text-align: center;
+   text-align: center;
 }
 }
 @media (max-width: 500px) {

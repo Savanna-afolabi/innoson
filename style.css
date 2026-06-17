@@ -199,7 +199,7 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 50px 0;
 }
 footer{
   background-color: var(--black-text);
@@ -417,5 +417,16 @@ input{
 .footer{
   flex-direction: column;
   gap: 50px;
+}
+.contact{
+  /* display: flex;
+  flex-direction: column; */
+  /* margin: 40px; */
+  border: red solid 1px;
+  min-width: 100%;
+}
+.footer-div
+{
+  /* border: greenyellow solid 2px; */
 }
 }

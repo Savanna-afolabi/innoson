@@ -321,19 +321,37 @@ input{
  */
 
  input{
-  height: 30px;
+  height: 50px;
+  width: 220px;
   margin-bottom: 15px;
 }
 .footer{
   padding-bottom: 40px;
   padding-top: 25px;
+  flex-direction: column;
+}
+#news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 35px;
+}
+#sign-up{
+  padding: 15px 0;
+}
+#input{
+  margin-right: 30px;
 }
 .footer-div p h1{
   font-size: 13px;
 }
 .second-div h1{
-   text-align: center;
+   /* text-align: center; */
 }
+  .footer-div{
+  min-width: 100%;
+  }
+
 }
 @media (max-width: 500px) {
   .container {
